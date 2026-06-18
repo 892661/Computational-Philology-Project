@@ -1,1 +1,1 @@
-# computational-philology-project
+# Computational-Philology-Project
