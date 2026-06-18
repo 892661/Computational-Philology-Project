@@ -1,4 +1,3 @@
-# Computational-Philology-Project
 computational-philology-project/
 │
 ├── README.md
