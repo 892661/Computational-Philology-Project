@@ -1,0 +1,354 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nota quod sancto concilio non est detrahendum</title>
+            <author>Johann Hildessen</author>
+         </titleStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier xml:id="D.54">
+                  <placeName>Prague</placeName>
+                  <repository>Archiv Pražského hradu</repository>
+                  <collection>Knihovna Metropolitní kapituly</collection>
+                  <idno>D. 54</idno>
+               </msIdentifier> 
+               <msIdentifier xml:id="4941">
+                  <placeName>Wien</placeName>
+                  <repository>Austrian National Library</repository>
+                  <collection/>
+                  <idno>4941</idno>
+               </msIdentifier>
+            </msDesc> 
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        <div n="1" xml:id="D.54">
+        <sourceDesc>
+            <msDesc>
+               <msIdentifier xml:id="D.54">
+               <lb/>Repository:
+                  <lb/>
+                            <placeName>Prague</placeName>
+                  <lb/>
+                            <repository>The Archive of the Prague castle</repository>
+                  <lb/>
+                            <collection>The Library of the Prague Metropolitan Chapter</collection>
+                  <lb/>
+                            <idno>sign. D. 54</idno>
+                  <lb/>
+               </msIdentifier>
+               </msDesc>
+               </sourceDesc>
+         <pb n="14r"/> 
+         <p>
+            <!-- arguments 2-6 numbered in medieval arabic numerals in margine -->
+            <lb n="1"/> <title rendition="underline">Nota q<ex>uod</ex> Sacro concilio no<ex>n</ex> est detrahend<ex>um</ex> p<ex>atet</ex> ex m<ex>u</ex>ltis
+            </title>
+            <lb n="2"/> <seg type="argument" n="1"> <hi rend="underline">p<ex>ri</ex>mo</hi> ap<ex>osto</ex>li illud in instituu<ex>n</ex>t et celebravu<ex>n</ex>t </seg> <seg type="argument" n="2"> <hi rend="underline">Se<ex>cun</ex>do</hi> q<ex>uia</ex> p<ex>er</ex> sac<ex>rorum</ex>
+            <lb n="3"/> conciliu<ex>m</ex> quat<ex>tuor</ex> s<ex>an</ex>c<ex>t</ex>a ew<ex>a</ex>n<ex>geli</ex>a quibi utit<ex>ur</ex> eccl<ex>es</ex>ia sunt recepta
+            <lb n="4"/> <ex>et</ex> co<ex>n</ex>f<ex>ir</ex>mata <ex>et</ex> m<ex>u</ex>lta alia ew<ex>a</ex>n<ex>geli</ex>a sunt abiecta <!-- ?? punctuation mark of some sort --> qui ergo
+            <lb n="5"/> reiciu<ex>n</ex> Sac<ex>rum</ex> conciliu<ex>m</ex> reiciu<ex>n</ex>t ew<ex>a</ex>n<ex>geli</ex>a </seg> <seg type="argument" n="3"> <hi rend="underline">Tercio</hi> Sacrum con
+            <lb n="6"/> ciliu<ex>m</ex> solet term<ex>in</ex>are om<ex>ne</ex>s causas <ex>et</ex> difficultates q<ex>ue</ex> i<ex>n</ex> ecc<ex>les</ex>ia
+            <lb n="7"/> dei surgunt <ex>et</ex> dampnare om<ex>ne</ex>s hereses que surgu<ex>n</ex>t in
+                  <lb n="8"/> ecc<ex>les</ex>ia dei </seg> <seg type="argument" n="4"> <hi rend="underline">Quarto</hi> q<ex>uia</ex> papa et Imp<ex>er</ex>ator confirmaru<ex>n</ex>t
+            <lb n="9"/> conciliu<ex>m</ex> <ex>et</ex> co<ex>n</ex>firma<ex>n</ex>t confirma<ex>n</ex>da <ex>et</ex> revoca<ex>n</ex>t revoca<ex>n</ex>da
+                     <lb n="10"/> que f<ex>ac</ex>ta sunt i<ex>n</ex> concilio </seg> <seg type="argument" n="5"> <hi rend="underline">Quinto</hi> q<ex>uia</ex> om<ex>ne</ex>s Reges <ex>christ</ex>ianit<ex>atis</ex>
+            <lb n="11"/> <ex>et</ex> om<ex>ne</ex>s pr<ex>in</ex>cipes <ex>christi</ex>ani<ex>tatis</ex> <ex>et</ex> om<ex>ne</ex>s p<ex>re</ex>lati 
+                           <sic descr="sic"> ut </sic> 
+                        <ex>scopi</ex> et Cardinales
+                        <lb n="12"/> <ex>et</ex> p<ex>ri</ex>mates obediu<ex>n</ex>t concilio </seg> <seg type="argument" n="6"> <hi rend="underline">Sexto</hi> q<ex>uia</ex> nullus ta<ex>m</ex> magnus e<ex>st</ex>
+            <lb n="13"/> qui p<ex>re</ex>sumat cont<ex>ra</ex>dice<ex>r</ex>e illis que fiu<ex>n</ex>t in concilio Eccl<ex>e</ex>s<ex>ie</ex>
+            <lb n="14"/> nisi solus papa et Imp<ex>er</ex>ator sim<ex>u</ex>l iuncti </seg>
+         </p> <p>
+            <lb n="15"/> <title rendition="underline">Quod no<ex>n</ex> sit com<ex>mun</ex>icandum sub utra<ex>que</ex>
+                    </title>
+            <!-- a symbol and "Con." written in margine by a later hand -->
+            <lb n="16"/> <title>spe<ex>cie</ex>
+                    </title>
+               <!-- hopefully the title's ending on a different line isn't a problem -->
+               <seg type="argument" n="1">
+                  <!-- he does not specify the number of the arugment here -->
+                  pat<ex>et</ex> ex istis p<ex>ri</ex>mo q<ex>uia</ex> nulli laici co<ex>m</ex>mu<ex>ni</ex>cant sic nec 
+            <lb n="17"/> Imp<ex>er</ex>ator nec aliquis Rex nec aliquis sac<ex>er</ex>dos qu<ex>ando</ex> n<ex>on</ex>
+            <lb n="18"/> celebrat missam in tota <ex>christi</ex>anitate sed sub spe<ex>cie</ex> panis
+            <lb n="19"/> t<ex>a</ex>m summit corpus <ex>christi</ex> se<ex>cun</ex>d<ex>u</ex>m institut<ex>i</ex>o<ex>ne</ex>m eccl<ex>es</ex>ie dei</seg>
+            <seg type="argument" n="2">
+                    <hi rend="underline">Se<ex>cun</ex>do</hi> 
+            <lb n="20"/> q<ex>uia</ex> nullus s<ex>an</ex>c<ex>t</ex>o<ex>rum</ex> docto<ex>rum</ex> quatuor dicit 
+                          <!-- some sort of preposition, same as in KMK O 2 --> 
+                         laici de<ex>be</ex>nt co<ex>m</ex>
+            <lb n="21"/> mu<ex>n</ex>icare sub utraque spe<ex>cie</ex> </seg>
+            <seg type="argument" n="3">
+                    <hi rend="underline">Tercio</hi> q<ex>uia</ex> solus sacerdos eo 
+            <lb n="22"/> t<ex>em</ex>p<ex>or</ex>e quo dicit missam p<ex>otes</ex>t accip<ex>er</ex>e eucha<ex>ristia</ex> sub utra<ex>que</ex> 
+            <lb n="23"/> spe<ex>cie</ex> 
+            </seg> <seg type="argument" n="4">
+                    <hi rend="underline">Quarto </hi> q<ex>uia</ex> papa et tota Romana eccl<ex>es</ex>ia sic tenet
+            <lb n="24"/> <ex>et</ex> no<ex>n</ex> licet nobis tene<ex>re</ex> mod<ex>um</ex> sp<ex>eci</ex>alem con<ex>tra</ex> om<ex>n</ex>es alios 
+            <lb n="25"/> <ex>christi</ex>anos 
+                         <!-- graphically separated -->
+                         Unde 
+                         <quote source="St. Augustine, Contra epistulam Manichaei quam vocant fundamenti, ch. 5, n. 6"><!-- we should identify quotation --> 
+                         Aug<ex>ustinus</ex> Ew<ex>a</ex>n<ex>geli</ex>o no<ex>n</ex> cred<ex>er</ex>em nisi me eccl<ex>es</ex>ia com<ex>m</ex>ov<ex>er</ex>et</quote>
+            </seg>
+         </p>
+         <p> <!-- paragraphs clearly separated by ink underlining -->
+            <lb n="26"/> Nota 
+                <!-- very decorative capital N --> 
+                q<ex>uod</ex> papa in die coronat<ex>i</ex>onis sue cantat missam
+            <lb n="27"/> <ex>et</ex> comm<ex>un</ex>icat om<ex>n</ex>es Cardinales <ex>et</ex> no<ex>n</ex> sub utra<ex>que</ex> spe<ex>cie</ex> sed
+            <lb n="28"/> sub una sc<ex>ilicet</ex> sub spe<ex>cie</ex> panis 
+            <!-- underlined --> <hi rend="underline">Item Imp<ex>er</ex>ator</hi> 
+                      i<ex>n</ex> die co<ex>ro</ex>nat<ex>i</ex>on<ex>i</ex>s 
+            <lb n="29"/> sue co<ex>m</ex>m<ex>un</ex>icat <ex>et</ex> non sub utra<ex>que</ex> spe<ex>cie</ex> Item nec papa nec 
+            <lb n="30"/> imp<ex>er</ex>ator q<ex>uando</ex> moriu<ex>n</ex>t<ex>ur</ex> 
+               <!-- in KMK O 2 there is non  --> 
+               co<ex>m</ex>m<ex>un</ex>icant sub utra<ex>que</ex> spe<ex>cie</ex> sed sub una
+               <!-- unidentified symbol in the margin  --> 
+         </p>
+            <p> <!-- paragraphs clearly separated by ink underlining -->
+            <lb n="31"/> Item expressum <ex>est</ex> in Jure canonico q<ex>uod</ex> p<ex>re</ex>sb<ex>ite</ex>r <ex>com</ex>m<ex>un</ex>icans
+            <lb n="32"/> <ex>et</ex> no<ex>n</ex> celebrans de<ex>be</ex>t stare contentus i<ex>n</ex> <ex>com</ex>m<ex>un</ex>ione laicali
+            <lb n="33"/> que fit sub spe<ex>cie</ex> panis Item Greci qui su<ex>n</ex>t Scismatici
+            <lb n="34"/> co<ex>m</ex>m<ex>un</ex>icant sub utra<ex>que</ex> spe<ex>cie</ex> quib<ex>us</ex> nos non de<ex>be</ex>m<ex>us</ex> 
+                <!--  different word order from KMK O 2 --> 
+              conforma<ex>re</ex> 
+            <lb n="35"/> con<ex>tra</ex> ro<ex>ma</ex>na<ex>m</ex> eccl<ex>es</ex>iam 
+               quia <!-- the first letter in the Ms. is strange -->
+               etia<ex>m</ex> co<ex>n</ex>secra<ex>n</ex>t in pane fer
+               <!-- one word, two lines -->
+            <lb n="36"/> mentato 
+               <!-- different word order from KMK O 2 --> 
+               con<ex>tra</ex> romana<ex>m</ex> eccl<ex>es</ex>iam reluctantes p<ex>ropte</ex>r co<ex>n</ex>iugii 
+            <lb n="37"/> p<ex>ro</ex>hibit<ex>i</ex>o<ex>ne</ex>m licet 
+               nu<ex>n</ex>c <!-- is it really nec in KMK O 2?? --> 
+               eis co<ex>n</ex>iugiu<ex>m</ex> sit p<ex>er</ex>missum p<ex>otes</ex>t
+               <!-- unidentified scribble in margine -->
+            <lb n="38"/> queri <!-- different word order from KMK O 2 --> 
+               quomodo de<ex>be</ex>nt intelligi v<ex>erb</ex>a <ex>christ</ex>i 
+               Joha<ex>n</ex>nis VIo <!-- citation below: Jn/Io.6.54 --> 
+               <lb/>
+         <pb n="14v"/>
+            <lb n="1"/> ubi d<ex>icitu</ex>r <quote source="John 6.54">n<ex>isi</ex> 
+            <!-- underlined, maybe indicating all three words are heavily abbreviated? --> man<ex>ducaveritis</ex> car<ex>nem</ex> fi<ex>lii</ex>
+                </quote> 
+            res<ex>pon</ex>de<ex>n</ex>tum <unclear type="unclear">?<!-- unclear; Domini datum? --></unclear>
+            sic<ex>ut</ex> intelligit eccl<ex>es</ex>ia <ex>et</ex> 
+            <unclear type="unclear">sd? <!-- unclear --></unclear>
+            <lb n="2"/> exponit <ex>christ</ex>us d<ex>icit</ex>  
+            <quote source="John 6.64">Verba que ego loquor vobis 
+            sp<ex>irit</ex>us 
+            <lb n="3"/> et vita sunt <!-- cit end -->
+                </quote>
+                <ex>id est</ex> sunt sp<ex>irit</ex>ual<ex>ite</ex>r intelligenda 
+            <!-- some sort of vertical line separating -->
+                <ex>et</ex> 
+            <unclear type="unclear">?<!-- unclear, heavily abbreviated, christis? -->cpis <!-- different from KMK O 2, quomodo missing --></unclear>
+            sp<ex>irit</ex>ual<ex>ite</ex>r
+            <lb n="4"/> <!-- graphically separated, new paragraph? --> dico de fide incarnat<ex>i</ex>onis et passionis i<ex>de</ex>o dicit <!-- authority cited --> B<ex>ea</ex>tus Aug<ex>ustinus</ex>  
+            <lb n="5"/> 
+                <!-- aparently from Peter fo Lombardy Liber 4 Distinctio 9 and commonly attributed to Augustine https://www.magistersententiarum.com/ouvrages/magister-bandinus/liber-iv/distinctio-ix; ut quid paras ventrem et dentem? crede et manducasti -->
+                <quote source="Peter Lombard?"> i<ex>n</ex> omelia Quid  p<ex>repar</ex>as ventrem crede et ma<ex>n</ex>ducasti </quote>
+            e<ex>tiam</ex> <!-- Cappeli 115 -->
+            <lb n="6"/> P<ex>ate</ex>t 
+            <unclear type="unclear">qouniam?<!-- abbreviated, quam? --></unclear> 
+            cur <!-- authority --> Ap<ex>osto</ex>lus paul<ex>u</ex>s <!-- different word order --> s<ex>cri</ex>psit Corinthiis <quote source="Cor. 6.13?"><!-- citation, 1 Cor.6.13? really not sure --> corpus
+            <lb n="7"/> d<ex>o</ex>m<ex>in</ex>i <ex>et</ex> sanguinem euis sum<ex>ere</ex> sub utra<ex>que</ex> spe<ex>cie</ex>
+                </quote> R<ex>espo</ex>ndet<ex>ur</ex> p<ex>ro</ex>pt<ex>er</ex> 
+            <lb n="8"/> fidei confirmac<ex>ione</ex>m que h<ex>ab</ex>enda sint de illo sacrame<ex>n</ex>to 
+            <lb n="9"/> potest ecia<ex>m</ex> queri ille modus e<ex>st</ex> mutat<ex>us</ex> 
+               R<ex>espondetur</ex> <!-- Cappeli  318 -->
+               pr<ex>op</ex>t<ex>er</ex> he<ex>re</ex>ticos 
+            <lb n="10"/> dicentes
+               quia sub spe<ex>cie</ex> panis esset corpus sine sangu<ex>in</ex>e 
+            <lb n="11"/> <ex>et</ex> sub spe<ex>cie</ex> vini esset sang<ex>uini</ex>s sine corp<ex>or</ex>e <!-- mark --> quia v<ex>erb</ex>a co<ex>n</ex>secra
+            <lb n="12"/> c<ex>i</ex>onis panis sonant <!-- different ending --> solu<ex>m</ex> de corp<ex>or</ex>e <!-- mark --> <ex>et</ex> v<ex>erbam</ex> co<ex>n</ex>secrat<ex>i</ex>onis
+            <lb n="13"/> <unclear type="unclear">calicis?<!-- or calicibus? --></unclear> sonant <!-- different word order --> solu<ex>m</ex> de sangwine <!-- mark -->
+               <!-- underlined --> Concu<ex>rr</ex>unt etia<ex>m</ex> alie 
+            <lb n="14"/> cause ut calic<ex>is</ex> d<ex>omini</ex> debita co<ex>n</ex>servac<ex>i</ex>o in yeme <!-- =hieme --> et 
+            <lb n="15"/> in estate <!-- /underlined --><!-- mark --> et debita mi<ex>ni</ex>stratio de qua m<ex>u</ex>lta 
+               dic<unclear type="unclear">i?<!-- strange verb form, also check the tags here --></unclear> 
+               p<ex>osun</ex>t sed   
+            <lb n="16"/> no<ex>n</ex> sona<ex>n</ex>t 
+               <!-- brackets in the original! --> (non intelligentib<ex>us</ex> 
+               alii <!-- underlined -->vomitum <!-- /underlined -->alii perfund<ex>un</ex>t
+            <lb n="17"/> se <ex>et</ex> alias res <!-- mark --> alii no<ex>n</ex> p<ex>ossun</ex>t pati odore<ex>m</ex> vini <!-- mark --> Est reuera
+            <lb n="18"/> p<ex>er</ex> 
+               canipos <!-- does not seem to be a word, canipos?) -->
+               <ex>vel</ex> <!-- ul, Cappeli 392--> <!-- mark --> in equo <!-- mark --> <ex>vel</ex> in collo <!-- mark --> ferre sang<ex>ui</ex>nem d<ex>omini</ex> 
+            <lb n="19"/> est q<ex>uasi</ex> abhomi<ex>n</ex>abile <!-- mark --> Et <!-- or est? --> in <unclear type="unclear">quib<ex>usdam</ex> <!-- quibusdam makes more sense, but the abbreviation seems to be of just quibus -->
+                </unclear>
+               t<ex>er</ex>ris no<ex>n</ex> p<ex>ossu</ex>nt h<ex>abe</ex>re vi<ex>num</ex> 
+            <lb n="20"/> nisi cum labore <unclear type="unclear">q<ex>uo</ex>d?<!-- quid? quidam? nisi-quod sentence makes sense -->
+                </unclear> vix sufficit sac<ex>er</ex>doti p<ex>ro</ex> missa <!-- mark --> 
+               Unde greci 
+            <lb n="21"/> dant p<ex>opu</ex>lo <!-- Cappeli 286 --> in ??donem p<ex>ro</ex> vino in quibusda<ex>m</ex> loc<ex>is</ex> <!-- words added -->
+                <ex>et</ex> in q<ex>ui</ex>busda<ex>m</ex>
+            <lb n="22"/> locis <!-- /words added --> cu<ex>m</ex> vinu<ex>m</ex> s<ex>e</ex>rvare no<ex>n</ex> pot<ex>er</ex>ant s<ex>e</ex>rvabant 
+               unas <!-- underlined, abbreviation that I didn't recognize? --> 
+               et
+            <lb n="23"/> p<ex>os</ex>tea cox<ex>er</ex>unt i<ex>n</ex> aqua <ex>et</ex> vocabant illud vinu<ex>m</ex> <ex>et</ex> cu<ex>m</ex> illo
+            <lb n="24"/> celebrant <ex>et</ex> quida<ex>m</ex> intinxerunt pannos lineos in
+            <lb n="25"/> vino et cum defecit eis vinu<ex>m</ex> lav<ex>er</ex>unt pannos illos <ex>et</ex> loc<ex>ione</ex>m <!-- urine? lacionem? -->
+            <lb n="26"/> illam vocabant vinu<ex>m</ex> et miscu<ex>er</ex>unt cu<ex>m</ex> aqua et cu<ex>m</ex> 
+            <lb n="27"/> illo celebrant ut pat<ex>et</ex> <unclear type="unclear">?de?to?</unclear><!-- ex decreto in KMK O 2 --> manifeste quo<ex>modo</ex>
+            <lb n="28"/> igit<ex>ur</ex> p<ex>opu</ex>lus ibi p<ex>otes</ex>t com<ex>mun</ex>icare sub utra<ex>que</ex> spe<ex>cie</ex> ubi quasi
+            <lb n="29"/> nichil est de vino <ex>et</ex> qui nesciu<ex>n</ex>t hec statim imputa<ex>n</ex>t
+            <lb n="30"/> malicie sacerdotum <ex>et</ex> pigricie eorum q<ex>uasi</ex> nullus <unclear type="unclear">possit?<!-- or posset? --></unclear> corrigere
+            <lb n="31"/> sacerdotes nec papa nec etia<ex>m</ex> imp<ex>er</ex>ator n<ex>e</ex>c Reges nec
+            <lb n="32"/> principes <ex>christ</ex>ianitat<ex>is</ex> 
+         </p>
+     </div>
+     <div n="2" xml:id="4941">
+     <sourceDesc>
+            <msDesc>
+               <msIdentifier xml:id="4941">
+               <lb/>Repository:
+                  <lb/>
+                            <placeName>Wien</placeName>
+                  <lb/>
+                            <repository>Austrian National library</repository>
+                  <lb/>
+                            <idno>sign. 4941</idno>
+                  <lb/>
+                  <lb/>
+               </msIdentifier>
+               </msDesc>
+               </sourceDesc>
+         <pb n="166r"/>
+         <p>
+            <lb n="1"/> De sacro Concilio no<ex>n</ex> est detrahend<ex>um</ex> p<ex>ate</ex> ex mult<ex>is</ex> <seg type="argument" n="1"> Primo 
+            <lb n="2"/> q<ex>uia</ex> Ap<ex>osto</ex>li id<ex>e</ex> institu<ex>er</ex>unt <ex>et</ex> celebraru<ex>n</ex>t </seg>
+            <lb n="3"/> <seg type="argument" n="2"> <ex>secundo</ex> q<ex>uia</ex> <ex>per</ex> sacru<ex>m</ex> Concili<ex>um</ex> qua<ex>tor</ex> s<ex>an</ex>c<ex>t</ex>a Ewan<ex>gelia</ex> quib<ex>us</ex> utit<ex>ur</ex> 
+            <lb n="4"/> ec<ex>cl</ex>e<ex>s</ex>i<ex>a</ex> s<ex>un</ex>t recepta <ex>et</ex> <ex>con</ex>firmata et multa alia Ew<ex>angelia</ex> s<ex>un</ex>t abiecta
+            <lb n="5"/> Qui <ex>er</ex>g<ex>o</ex> reiciu<ex>n</ex>t sac<ex>rum</ex> Concili<ex>um</ex> reiciunt ew<ex>angelia</ex> </seg>
+            <lb n="6"/> <seg type="argument" n="3"> T<ex>er</ex>cio sac<ex>rum</ex> Concili<ex>um</ex> solet t<ex>ermi</ex>nare om<ex>ne</ex>s causas <ex>et</ex> diffic<ex>u</ex>l  
+            <lb n="7"/> tates que surgunt in ec<ex>cl</ex>e<ex>s</ex>i<ex>a</ex> dei </seg>
+            <lb n="8"/> <seg type="argument" n="4"> Q<ex>ua</ex>rto q<ex>uia</ex> p<ex>a</ex>pa <ex>et</ex> Im<ex>per</ex>ator <ex>con</ex>firmav<ex>e</ex>nt<ex>ur</ex> Concili<ex>um</ex> et <ex>con</ex>firma<ex>n</ex>t 
+            <lb n="9"/> <ex>con</ex>firma<ex>n</ex>da <ex>et</ex> revoca<ex>n</ex>t revocanda que f<ex>a</ex>c<ex>t</ex>a s<ex>un</ex>t i<ex>n</ex> Concilio </seg>
+            <lb n="10"/> <seg type="argument" n="5"> Q<ex>ui</ex>nto q<ex>uia</ex> omn<ex>e</ex>s Reges <ex>christi</ex>ani<ex>tatis</ex> <ex>et</ex> om<ex>ne</ex>s p<ex>ri</ex>cipes <ex>christi</ex>anit<ex>atis</ex>
+            <lb n="11"/> et om<ex>ne</ex>s p<ex>re</ex>lati ut E<ex>pisco</ex>pi et Cardinales et p<ex>ri</ex>mates obe
+                    <lb n="12"/>diu<ex>n</ex>t Concilio q<ex>uod</ex> nos obediam<ex>us</ex> </seg>
+            <lb n="13"/> <seg type="argument" n="6"> Sexto q<ex>uia</ex> null<ex>us</ex> e<ex>st</ex> tam magn<ex>us</ex> qui p<ex>re</ex>sumat <ex>con</ex>tradic<ex>er</ex>e 
+            <lb n="14"/> illis que fiu<ex>n</ex>t in Consilio Ec<ex>cl</ex>e<ex>si</ex>e nisi solus p<ex>a</ex>pa <ex>et</ex> Im
+            <lb n="15"/> p<ex>er</ex>ator simul iu<ex>n</ex>cti</seg>
+         </p> 
+         <p>
+            <lb n="16"/> Q<ex>uorum</ex> no<ex>n</ex> <ex>com</ex>unicand<ex>um</ex> sub ut<ex>ra</ex>q<ex>ue</ex> spe<ex>cie</ex> q<ex>uod</ex> ex i<ex>stis</ex> <seg type="argument" n="1"> P<ex>ri</ex>mo quia
+            <lb n="17"/> nulli layci <ex>commu</ex>cant sit n<ex>ec</ex> Imp<ex>er</ex>ator n<ex>ec</ex> aliquis Rex n<ex>ec</ex> 
+            <lb n="18"/> aliq<ex>ui</ex>s sac<ex>er</ex>dos q<ex>ua</ex>n<ex>do</ex> no<ex>n</ex> celebrat missam i<ex>n</ex> tota <ex>christi</ex>ani<ex>tate</ex> s<ex>ed</ex> 
+            <lb n="19"/> sub spe<ex>cie</ex> panis t<ex>antu</ex>m sumit cor<ex>pus</ex> <ex>Christi</ex> s<ex>ecundum</ex> institu<ex>tionem</ex> ecc<ex>lesi</ex>e dei </seg>
+            <lb n="20"/>
+                <seg type="argument" n="2"> <ex>Secundo</ex> quia null<ex>us</ex> s<ex>anc</ex>to<ex>rum</ex> doctor<ex>um</ex> quatros d<ex>icit</ex> layci debet
+            <lb n="21"/> quitare sub uterq<ex>ue</ex> spe<ex/>cie </seg>
+            <lb n="22"/> <seg type="argument" n="3"> T<ex>er</ex>cio quia solus sacerd<ex>os</ex> eo t<ex>em</ex>p<ex>or</ex>e quo d<ex>icit</ex> missam p<ex>otes</ex>t acci
+            <lb n="23"/> pe euka<ex>ri</ex>sta<ex>m</ex> sub utraq<ex>ue</ex> spe<ex>cie</ex> </seg>
+            <lb n="24"/> <seg type="argument" n="4"> Q<ex>ua</ex>rto quia p<ex>a</ex>pa <ex>et</ex> to<ex>ta</ex> Ro<ex>ma</ex>na Ecc<ex>lesi</ex>a sic ten<ex>et</ex> no<ex>n</ex> lic<ex>et</ex> nob<ex>is</ex>
+            <lb n="25"/>  tene<ex>r</ex> mo<ex>dum</ex> sp<ex>ec</ex>ialem <ex>con</ex>tra alios om<ex>ne</ex>s <ex>christi</ex>anos und<ex>e</ex> Au<ex>gus</ex>t<ex>inus</ex>
+            <lb n="26"/> Ego ew<ex>angelio</ex> no<ex>n</ex> crede<ex>re</ex>m nisi me ecc<ex>les</ex>ia com<ex>me</ex>veret </seg> 
+         </p> 
+       <pb n="167r"/>
+         <p>
+            <lb n="1"/> No<ex>ta</ex> q<ex>uod</ex> p<ex>apa</ex> i<ex>n</ex> die co<ex>ro</ex>nac<ex>i</ex>o<ex>n</ex>is sue ca<ex>n</ex>tat missam <ex>et</ex> <ex>commu</ex>nica<ex>n</ex>t om<ex>ne</ex>s
+            <lb n="2"/> Cardinales sub una T<ex>a</ex>m<ex>en</ex> spe<ex>cie</ex> panis et no<ex>n</ex> sub utraq<ex>ue</ex>
+            <lb n="3"/> It<ex>em</ex> Imp<ex>er</ex>atore i<ex>n</ex> die co<ex>ro</ex>nacionis sue <ex>commu</ex>nicat <ex>et</ex> no<ex>n</ex> su utra<ex>que</ex> spe<ex>cie</ex>
+            <lb n="4"/> It<ex>em</ex> n<ex>ec</ex> P<ex>a</ex>pa n<ex>ec</ex> Imp<ex>er</ex>ator qu<ex>ando</ex> moriu<ex>ntir</ex> <ex>commu</ex>nica<ex>n</ex>t sub utraq<ex>ue</ex> spe<ex>cie</ex> s<ex>e</ex>d sub
+            <lb n="5"/> It<ex>em</ex> exp<ex>re</ex>ssum e<ex>st</ex> i<ex>n</ex> Jure can<ex>ico</ex> q<ex>uod</ex> p<ex>re</ex>sbi<ex>ter</ex> <ex>commu</ex>nicans <ex>et</ex> no<ex>n</ex> celebrans
+            <lb n="6"/> d<ex>ebet</ex> stare <ex>con</ex>tent<ex>us</ex> layci que sit sub spe<ex>cie</ex> panis
+            <lb n="7"/> It<ex>em</ex> greci q<ex>ui</ex> s<ex>un</ex>t scisma<ex>rtici</ex> <ex>commu</ex>nicant sub ut<ex>ar</ex>q<ex>ue</ex> spe<ex>cie</ex> quib<ex>us</ex> no<ex>n</ex> d<ex>e</ex> 
+            <lb n="8"/> bem<ex>us</ex> nos <ex>con</ex>forma<ex>r</ex>e <ex>con</ex>t<ex>ra</ex> Romani ecc<ex>le</ex>s<ex>iam</ex> qui et<ex>iam</ex> <ex>con</ex>secrant
+              <lb n="9"/> i<ex>n</ex> pane f<ex>er</ex>mentato <ex>con</ex>t<ex>ra</ex> Romani <unclear>
+                    <supplied desc="supplied">ecclesiam</supplied>
+                </unclear> reluctant<ex>es</ex> <unclear>
+                    <supplied desc="supplied">propteram</supplied>
+                </unclear>
+            <lb n="10"/> <ex>con</ex>iugii p<ex>ro</ex>hibicion<ex>en</ex> <unclear>
+                    <supplied desc="supplied">licit</supplied>
+                </unclear> <unclear/> eis <ex>con</ex>iugiu<ex>m</ex> sit p<ex>er</ex>missum  
+         </p> 
+         <p>
+            <lb n="11"/> P<ex>otes</ex>t queri quo<ex>modo</ex> de<ex>be</ex>nt <unclear>
+                    <supplied desc="supplied">intelligi</supplied>
+                </unclear> v<ex>er</ex>ba <ex>Christi</ex> Jo<ex>hannis</ex> <num>VI</num> ubi d<ex>icitur</ex> nisi man
+            <lb n="12"/> ducav<ex>er</ex>itis <unclear>
+                    <supplied desc="supplied">carnem filli hominis et biberitis eius sanguinem</supplied>
+                </unclear> i<ex>n</ex>tellig<ex>i</ex> ecc<ex>les</ex>ia<ex/>m
+            <lb n="13"/> et sit expo<ex>ni</ex>t <ex>Christus</ex> d<ex>icit</ex> verba que ego loquor <unclear>
+                    <supplied desc="supplied">spiritus</supplied>
+                </unclear> <ex>et</ex> vita s<ex>un</ex>t
+            <lb n="14"/> i<ex>des</ex> s<ex>un</ex>t <unclear>
+                    <supplied desc="supplied">spiritualiter</supplied>
+                </unclear> intelli<ex>genda</ex> <ex>et</ex> quo<ex>modo</ex> <unclear>
+                    <supplied/>spiritualite</unclear> dico de fide in c<ex>arna</ex>
+                
+            <lb n="15"/> cion<ex>is</ex> <ex>et</ex> passionis ideo d<ex>icit</ex> <unclear>
+                    <supplied>Beatus Augustinus</supplied>
+                </unclear> in Om<ex>e</ex>l<ex>ia</ex> Quid
+            <lb n="16"/> p<ex>re</ex>paras ventre<ex>m</ex> credi <ex>et</ex> manducasti
+         </p>
+         <p> 
+            <lb n="17"/> P<ex>ate</ex>t qua<ex>m</ex> cur Ap<ex>osto</ex>lus s<ex>ri</ex>psit <unclear>
+                    <supplied>Corinthiis coupus domini et sanguinem euis</supplied>
+                </unclear> 
+            <lb n="18"/> sum<ex>er</ex>e sub ut<ex>ra</ex>q<ex>ue</ex> spe<ex>cie</ex> <unclear>
+                    <supplied>respondetur</supplied>
+                </unclear> p<ex>ro</ex>p<ex>ter</ex> fid<ex>e</ex>i <ex>con</ex>firma<ex>tionem</ex> que hab<ex>enda</ex>
+            <lb n="19"/> sint de illo sacram<ex>en</ex>to
+         </p>
+         <p>
+            <lb n="20"/> P<ex>otes</ex>t et<ex>iam</ex> qua<ex>m</ex> quae<ex>ri</ex> i<ex>lle</ex> mod<ex>us</ex> sit mutat<ex>us</ex> <unclear>
+                    <supplied>Respondit</supplied>
+                </unclear> p<ex>ro</ex>p<ex>ter</ex> he<ex>re</ex>ticos
+            <lb n="21"/> <unclear>
+                    <supplied>dicentes</supplied>
+                </unclear> q<ex>uia</ex> s<ex>u</ex>b spe<ex>cie</ex> panis ess<ex>et</ex> co<ex>rpus</ex> sine <unclear>
+                    <supplied>sanguine</supplied>
+                </unclear> <ex>et</ex> sub spe<ex>cie</ex>
+            <lb n="22"/> vini ess<ex>et</ex> <unclear/> sine cor<ex>pore</ex> q<ex>uia</ex> v<ex>er</ex>ba <ex>con</ex>secracio<ex>n</ex>is panis
+            <lb n="23"/> sona<ex>n</ex>t<ex>is</ex> solum de cor<ex>pore</ex> <ex>et</ex> v<ex>er</ex>ba <ex>con</ex>secracio<ex>n</ex>is calic<ex>is</ex> sona<ex>n</ex>t so<ex>lum</ex>
+            <lb n="24"/> de sa<ex>n</ex>gu<ex>in</ex>e
+         </p>
+         <p>
+            <lb n="25"/> Concurru<ex>n</ex>t ec<ex>iam</ex> alie ca<ex>us</ex>e ut calic<ex>i</ex>s d<ex>omi</ex>ni debita <ex>con</ex>s<ex>er</ex>vacio
+            <lb n="26"/> i<ex>n</ex> yeme <ex>et</ex> i<ex>n</ex> estate debita mi<ex>ni</ex>stra<ex>to</ex> de qua m<ex>u</ex>lta de
+            <lb n="27"/> ci p<ex>osu</ex>nt <unclear>
+                    <supplied desc="supplied">sed</supplied>
+                </unclear> no<ex>n</ex> sona<ex>n</ex>t<ex>is</ex> no<ex>n</ex> i<ex>n</ex>tellige<ex>n</ex>tib<ex>us</ex> alii vomit<ex>us</ex> alii
+            <lb n="28"/> p<ex>er</ex>fundu<ex>n</ex>t se t<ex>e</ex> alias <unclear>
+                    <supplied desc="supplied">res</supplied>
+                </unclear> alii no<ex>n</ex> pati odo<ex>rem</ex> vi
+            <lb n="29"/> ni Et reue<ex>r</ex>a <ex>et</ex> ca<ex>m</ex>pus uel i<ex>n</ex> equo in collo  ferre s<ex>an</ex>g<ex>ui</ex>
+            <lb n="30"/> nem d<ex>omi</ex>ni est q<ex>uas</ex>i abho<ex>mibab</ex>ile Et i<ex>n</ex> quibusdam <unclear>
+                    <supplied desc="supplied">terris</supplied>
+                </unclear> no<ex>n</ex> 
+            <lb n="31"/> p<ex>ossu</ex>nt h<ex>abe</ex>re vi<ex>num</ex> nisi cum labore q<ex>uid</ex> vix suffici<ex>s</ex>t sac<ex>er</ex>doti
+            <lb n="32"/> p<ex>ro</ex>missa Unde greci dat p<ex>o</ex>p<ex>u</ex>lo <unclear>
+                    <supplied desc="supplied">medicacione</supplied>
+                </unclear> p<ex>ro</ex> vino i<ex>n</ex> qui
+            <lb n="33"/> busda<ex>m</ex> ec<ex>iam</ex> loc<ex>is</ex> <ex>et</ex> quibusda<ex>m</ex> loc<ex>is</ex> cu<ex>m</ex> vinum <unclear/>
+            <lb n="34"/> no<ex>n</ex> pot<ex>er</ex>rant <unclear>
+                    <supplied desc="supplied">servabant postea</supplied>
+                </unclear> coxerunt i<ex>n</ex> aqua
+            <lb n="35"/> <ex>et</ex> vocaba<ex>n</ex>t i<ex>llud</ex> v<ex>inum</ex> <ex>et</ex> cu<ex>m</ex> i<ex>llo</ex> celebra<ex>n</ex>bat et quidam i<ex>n</ex>tuixe
+            <lb n="36"/> ru<ex>n</ex>t pannos lineos i<ex>n</ex> vino <ex>et</ex> cu<ex>m</ex> defecit eis vi<ex>num</ex> <unclear>
+                    <supplied desc="supplied">laverunt</supplied>
+                </unclear>
+            <lb n="37"/> panos illos <ex>et</ex> lac<ex>i</ex>onem i<ex>llam</ex> vo<ex>ca</ex>ba<ex>n</ex>t v<ex>inum</ex> miscu<ex>er</ex>unt cu<ex>m</ex> aq<ex>ua</ex>
+         </p>
+       <pb n="240r"/>
+         <p>
+            <lb n="1"/> <ex>Et</ex> sit cu<ex>m</ex> illo celebrarunt ut p<ex>atet</ex> ex decrete mani<ex>feste</ex> quo<ex>modo</ex> igi<ex>tur</ex> p<ex>o</ex>p<ex>u</ex>lus
+            <lb n="2"/> ibi <ex>com</ex>u<ex>n</ex>icab<ex>an</ex>t sub utraq<ex>ue</ex> spe<ex>cie</ex> ubi q<ex>uasi</ex> no<ex>n</ex> est de vino <ex>et</ex> qui nesci
+            <lb n="3"/> unt h<ex>ec</ex> statim i<ex>m</ex>puta<ex>n</ex>t malicie sac<ex>er</ex>d<ex>o</ex>tu<ex>m</ex> <ex>et</ex> pigricie eor<ex>um</ex> q<ex>uas</ex>i nullus
+            <lb n="4"/> possit corige<ex>re</ex> sac<ex>re</ex>dotes n<ex>ec</ex> p<ex>a</ex>pa n<ex>ec</ex> imp<ex>er</ex>ator n<ex>ec</ex> Reges n<ex>ec</ex> p<ex>ri</ex>ncipes
+            <lb n="5"/> <ex>christ</ex>iani<ex>tatis</ex>
+         </p>
+      </div>
+      </body>
+  </text>
+</TEI>
