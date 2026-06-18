@@ -1,14 +1,17 @@
+## Repository structure
+
+```text
 computational-philology-project/
 │
 ├── README.md
 ├── data/
 │   ├── raw/
 │   │   └── merged_manuscripts.xml
-│   ├── processed/
-│   │   ├── D54_extracted.txt
-│   │   ├── 4941_extracted.txt
-│   │   ├── D54_normalized.txt
-│   │   └── 4941_normalized.txt
+│   └── processed/
+│       ├── D54_extracted.txt
+│       ├── 4941_extracted.txt
+│       ├── D54_normalized.txt
+│       └── 4941_normalized.txt
 │
 ├── notebooks/
 │   └── textual_variation_workflow.ipynb
@@ -31,3 +34,4 @@ computational-philology-project/
 │
 └── report/
     └── final_report.md
+```
