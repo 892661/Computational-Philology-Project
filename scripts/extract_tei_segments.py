@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 
 # Input and output paths
-INPUT_FILE = Path("data/raw/merged manuscripts.xml")
+INPUT_FILE = Path("data/raw/merged_manuscripts.xml")
 OUTPUT_FILE = Path("data/processed/segments_dataset.csv")
 
 # TEI namespace
