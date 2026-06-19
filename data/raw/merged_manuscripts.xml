@@ -9,7 +9,7 @@
          </titleStmt>
          <sourceDesc>
             <msDesc>
-               <msIdentifier xml:id="D.54">
+               <msIdentifier xml:id="id_D.54">
                   <placeName>Prague</placeName>
                   <repository>Archiv Pražského hradu</repository>
                   <collection>Knihovna Metropolitní kapituly</collection>
@@ -27,10 +27,10 @@
   </teiHeader>
   <text>
       <body>
-        <div n="1" xml:id="D.54">
+        <div n="1" xml:id="id_D.54">
         <sourceDesc>
             <msDesc>
-               <msIdentifier xml:id="D.54">
+               <msIdentifier xml:id="id_D.54">
                <lb/>Repository:
                   <lb/>
                             <placeName>Prague</placeName>
