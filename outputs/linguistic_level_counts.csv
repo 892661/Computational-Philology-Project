@@ -1,0 +1,11 @@
+linguistic_level,count
+morphological,2
+morphological/orthographic,2
+textual,2
+orthographic,2
+lexical/textual,1
+orthographic/morphological,1
+morphological/lexical,1
+lexical/orthographic,1
+syntactic/sequential,1
+orthographic/lexical,1

@@ -1,0 +1,7 @@
+argument_n,jaccard_similarity,lcs_similarity,D54_length_tokens,4941_length_tokens,interpretation,levenshtein_distance,levenshtein_similarity
+1,0.273,0.429,7,7,"lower similarity; possible omission, addition, or reformulation",5,0.286
+2,0.76,0.857,28,28,high lexical and sequential similarity,4,0.857
+3,0.875,0.609,23,14,"high lexical overlap, lower sequential similarity",9,0.609
+4,0.882,0.944,18,18,high lexical and sequential similarity,1,0.944
+5,0.632,0.783,20,23,"lower lexical overlap, but stable sequence",5,0.783
+6,0.913,0.909,22,22,high lexical and sequential similarity,3,0.864

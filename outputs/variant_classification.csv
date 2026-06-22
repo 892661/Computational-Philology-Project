@@ -1,0 +1,15 @@
+argument_n,D54_reading,4941_reading,variation_type,linguistic_level,effect_on_similarity,note
+1,illud in,quia,lexical variation,lexical/textual,lowers Jaccard and Levenshtein similarity,Different wording in a very short segment.
+1,instituunt,instituerunt,morphological variation,morphological,lowers all token-based similarity measures,Different verbal form.
+1,celebravunt,celebrarunt,morphological/graphic variation,morphological/orthographic,lowers all token-based similarity measures,Different verbal surface form.
+2,sacrorum,sacrum,morphological variation,morphological,minor effect on token-based similarity,Different inflected form.
+2,quattuor,quator,graphic/orthographic variation,orthographic,minor effect on Jaccard similarity,Different spelling of the same numeral.
+2,quibi,quibus,morphological/graphic variation,morphological/orthographic,minor effect on token-based similarity,Different surface form of the relative pronoun.
+2,reiciun,reiciunt,graphic/morphological variation,orthographic/morphological,minor effect on token-based similarity,Final consonant is absent in D54.
+3,que in ecclesia dei surgunt et dampnare omnes hereses,-,omission/compression,textual,lowers LCS and Levenshtein similarity,Material present in D54 but absent in the shorter version of 4941.
+4,confirmarunt,confirmaventur,morphological/lexical variation,morphological/lexical,minor effect; segment remains highly stable,Different verbal form.
+5,principes,pricipes,graphic/orthographic variation,orthographic,lowers Jaccard similarity,Different spelling of the same lexical item.
+5,scopi,episcopi,lexical or abbreviation-related variation,lexical/orthographic,lowers Jaccard similarity,The two forms are related but do not match as identical tokens.
+5,-,quod nos obediamus,addition,textual,lowers Jaccard similarity and increases length of 4941,Additional final formula in 4941.
+6,nullus tam magnus est,nullus est tam magnus,word order variation,syntactic/sequential,slightly lowers sequence-based similarity,"The lexical material is the same, but the order changes locally."
+6,concilio,consilio,graphic/orthographic or lexical variation,orthographic/lexical,minor effect; segment remains highly similar,The variation affects the surface token.
