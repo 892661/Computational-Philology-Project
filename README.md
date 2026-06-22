@@ -24,5 +24,6 @@ computational-philology-project/
 │   ├── variant_type_counts.csv
 │   └── linguistic_level_counts.csv
 └── docs/
+    ├── TEIP_screenshot
     └── methodological_notes.md
    ```
