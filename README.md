@@ -1,3 +1,7 @@
+## Overview
+
+Questo lavoro nasce all’interno di un progetto più ampio di codifica TEI-XML e visualizzazione tramite TEI Publisher del testo _Nota quod sacro concilio non est detrahendum_ di Johannes Hildessen, nell’ambito di Antidote. Il notebook qui presentato si concentra sul trasformare parte della codifica TEI in dati comparabili e usare misure computazionali per analizzare la variazione tra due dei sei testimoni.
+
 ## Repository structure
 
 ```text
