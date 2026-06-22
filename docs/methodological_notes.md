@@ -19,7 +19,7 @@ Sono quindi stati corretti per rendere il documento parsabile e utilizzabile in 
 
 ## Selezione delle unità di confronto
 
-In una prima fase è stata considerata la possibilità di usare i paragrafi (<p>) come unità di confronto. Tuttavia, l’analisi del file TEI ha mostrato che la segmentazione in paragrafi non è parallela nei due testimoni. Il progetto utilizza quindi gli elementi TEI: <seg type="argument">
+In una prima fase è stata considerata la possibilità di usare i paragrafi come unità di confronto. Tuttavia, l’analisi del file TEI ha mostrato che la segmentazione in paragrafi non è parallela nei due testimoni. Il progetto utilizza quindi gli elementi TEI: <seg type="argument">
 
 La prima sezione selezionata contiene sei segmenti argomentativi per ciascun testimone. Il dataset elaborato contiene quindi dodici righe complessive: sei segmenti per Prague D.54 e sei segmenti per Wien 4941.
 
