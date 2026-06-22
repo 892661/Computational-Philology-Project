@@ -2,12 +2,12 @@
 
 ## Selezione del dataset
 
-Il corpus di partenza comprendeva sei testimoni manoscritti, ma per questa fase del progetto si è scelto di concentrarsi su due testimoni:
+Il corpus di partenza comprendeva sei testimoni manoscritti, ma per questa fase del progetto si è scelto di concentrarsi su due:
 
 - Prague D.54
 - Wien 4941
 
-La sezione selezionata corrisponde alla prima unità argomentativa del testo _Nota quod sacro concilio non est detrahendum_ di Johannes Hildessen, per poter, almeno inizialemente, focalizzarci su un confronto controllabile e limitato 
+La sezione selezionata corrisponde alla prima unità argomentativa del testo _Nota quod sacro concilio non est detrahendum_ di Johannes Hildessen, per poter, almeno inizialemente, focalizzarci su un confronto controllabile e limitato.
 
 ## Correzioni preliminari del file XML-TEI
 
